@@ -170,6 +170,7 @@ class RSACipher18Implementation {
         try {
             setLocale(Locale.ENGLISH);
             Calendar start = Calendar.getInstance();
+            start.add(Calendar.YEAR, -1);
             Calendar end = Calendar.getInstance();
             end.add(Calendar.YEAR, 25);
 
